@@ -9,16 +9,19 @@ import {persistor, store} from '@redux/store';
 import RootNavController from '@routes/RootNavController';
 import React from 'react';
 import {StyleSheet} from 'react-native';
+import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import {Provider as StoreProvider} from 'react-redux';
 import {PersistGate} from 'redux-persist/integration/react';
 
 function App(): React.JSX.Element {
   return (
-    <StoreProvider store={store}>
-      <PersistGate loading={null} persistor={persistor}>
-        <RootNavController />
-      </PersistGate>
-    </StoreProvider>
+    <GestureHandlerRootView style={{flex: 1}}>
+      <StoreProvider store={store}>
+        <PersistGate loading={null} persistor={persistor}>
+          <RootNavController />
+        </PersistGate>
+      </StoreProvider>
+    </GestureHandlerRootView>
   );
 }
 
