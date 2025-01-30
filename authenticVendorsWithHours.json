@@ -1,0 +1,2450 @@
+[
+  {
+    "id": 1,
+    "name": "Kaiser Cafe",
+    "ratings": "0.4",
+    "openingHours": "9:00 AM - 21:30 PM",
+    "location": {
+      "latitude": 27.710512842935987,
+      "longitude": 85.3303090462774,
+      "area": "New Baneshwor"
+    },
+    "menu": [
+      {
+        "id": "1-1",
+        "name": "Dal Bhat",
+        "price": "188.50"
+      },
+      {
+        "id": "1-2",
+        "name": "Kwati",
+        "price": "377.60"
+      },
+      {
+        "id": "1-3",
+        "name": "Dal Bhat",
+        "price": "169.45"
+      },
+      {
+        "id": "1-4",
+        "name": "Chatamari",
+        "price": "258.91"
+      },
+      {
+        "id": "1-5",
+        "name": "Yomari",
+        "price": "296.69"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "1-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 1. The food was amazing!",
+        "rating": "3.0"
+      },
+      {
+        "id": "1-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 1. The food was amazing!",
+        "rating": "3.4"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Kaiser Cafe",
+    "ratings": "1.0",
+    "openingHours": "9:30 AM - 20:00 PM",
+    "location": {
+      "latitude": 27.7258970500989,
+      "longitude": 85.33085677558587,
+      "area": "Thamel"
+    },
+    "menu": [
+      {
+        "id": "2-1",
+        "name": "Momo",
+        "price": "361.68"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "2-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 2. The food was amazing!",
+        "rating": "1.9"
+      },
+      {
+        "id": "2-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 2. The food was amazing!",
+        "rating": "4.7"
+      },
+      {
+        "id": "2-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 2. The food was amazing!",
+        "rating": "2.6"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "OR2K",
+    "ratings": "1.2",
+    "openingHours": "9:30 AM - 19:30 PM",
+    "location": {
+      "latitude": 27.720990552510077,
+      "longitude": 85.32765076184303,
+      "area": "Thamel"
+    },
+    "menu": [
+      {
+        "id": "3-1",
+        "name": "Chatamari",
+        "price": "195.11"
+      },
+      {
+        "id": "3-2",
+        "name": "Dal Bhat",
+        "price": "233.07"
+      },
+      {
+        "id": "3-3",
+        "name": "Kwati",
+        "price": "383.46"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "3-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 3. The food was amazing!",
+        "rating": "3.1"
+      },
+      {
+        "id": "3-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 3. The food was amazing!",
+        "rating": "1.2"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Fire and Ice Pizzeria",
+    "ratings": "1.3",
+    "openingHours": "8:00 AM - 21:00 PM",
+    "location": {
+      "latitude": 27.721263132061555,
+      "longitude": 85.33121108981878,
+      "area": "Thamel"
+    },
+    "menu": [
+      {
+        "id": "4-1",
+        "name": "Aloo Tama",
+        "price": "300.82"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "4-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 4. The food was amazing!",
+        "rating": "1.7"
+      },
+      {
+        "id": "4-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 4. The food was amazing!",
+        "rating": "2.7"
+      },
+      {
+        "id": "4-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 4. The food was amazing!",
+        "rating": "0.3"
+      },
+      {
+        "id": "4-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 4. The food was amazing!",
+        "rating": "4.9"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Bhojan Griha",
+    "ratings": "0.3",
+    "openingHours": "9:30 AM - 20:30 PM",
+    "location": {
+      "latitude": 27.67925545082655,
+      "longitude": 85.32403717042102,
+      "area": "Jawalakhel"
+    },
+    "menu": [
+      {
+        "id": "5-1",
+        "name": "Sel Roti",
+        "price": "385.52"
+      },
+      {
+        "id": "5-2",
+        "name": "Chatamari",
+        "price": "306.86"
+      },
+      {
+        "id": "5-3",
+        "name": "Gundruk",
+        "price": "312.79"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "5-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 5. The food was amazing!",
+        "rating": "2.7"
+      },
+      {
+        "id": "5-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 5. The food was amazing!",
+        "rating": "3.9"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Thamel House Restaurant",
+    "ratings": "2.0",
+    "openingHours": "7:30 AM - 19:00 PM",
+    "location": {
+      "latitude": 27.71376520234256,
+      "longitude": 85.32025505693245,
+      "area": "Lazimpat"
+    },
+    "menu": [
+      {
+        "id": "6-1",
+        "name": "Momo",
+        "price": "237.57"
+      },
+      {
+        "id": "6-2",
+        "name": "Chatamari",
+        "price": "129.13"
+      },
+      {
+        "id": "6-3",
+        "name": "Gundruk",
+        "price": "364.37"
+      },
+      {
+        "id": "6-4",
+        "name": "Newari Khaja Set",
+        "price": "266.60"
+      },
+      {
+        "id": "6-5",
+        "name": "Thukpa",
+        "price": "230.81"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "6-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 6. The food was amazing!",
+        "rating": "3.3"
+      },
+      {
+        "id": "6-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 6. The food was amazing!",
+        "rating": "0.9"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "OR2K",
+    "ratings": "1.3",
+    "openingHours": "8:00 AM - 22:30 PM",
+    "location": {
+      "latitude": 27.70136329439534,
+      "longitude": 85.32100803680285,
+      "area": "Patan Durbar Square"
+    },
+    "menu": [
+      {
+        "id": "7-1",
+        "name": "Dal Bhat",
+        "price": "344.57"
+      },
+      {
+        "id": "7-2",
+        "name": "Aloo Tama",
+        "price": "254.33"
+      },
+      {
+        "id": "7-3",
+        "name": "Kwati",
+        "price": "216.19"
+      },
+      {
+        "id": "7-4",
+        "name": "Kwati",
+        "price": "304.46"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "7-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 7. The food was amazing!",
+        "rating": "1.7"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Kaiser Cafe",
+    "ratings": "2.9",
+    "openingHours": "9:30 AM - 19:30 PM",
+    "location": {
+      "latitude": 27.716647537524207,
+      "longitude": 85.31597267889892,
+      "area": "Lazimpat"
+    },
+    "menu": [
+      {
+        "id": "8-1",
+        "name": "Sel Roti",
+        "price": "382.97"
+      },
+      {
+        "id": "8-2",
+        "name": "Yomari",
+        "price": "198.85"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "8-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 8. The food was amazing!",
+        "rating": "2.8"
+      },
+      {
+        "id": "8-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 8. The food was amazing!",
+        "rating": "2.5"
+      },
+      {
+        "id": "8-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 8. The food was amazing!",
+        "rating": "2.7"
+      },
+      {
+        "id": "8-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 8. The food was amazing!",
+        "rating": "0.0"
+      },
+      {
+        "id": "8-review-5",
+        "reviewer": "User 5",
+        "comment": "This is a review for Vendor 8. The food was amazing!",
+        "rating": "2.5"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Fire and Ice Pizzeria",
+    "ratings": "3.4",
+    "openingHours": "7:30 AM - 20:00 PM",
+    "location": {
+      "latitude": 27.682245041390754,
+      "longitude": 85.32551853120059,
+      "area": "Jawalakhel"
+    },
+    "menu": [
+      {
+        "id": "9-1",
+        "name": "Thukpa",
+        "price": "366.30"
+      },
+      {
+        "id": "9-2",
+        "name": "Sel Roti",
+        "price": "141.04"
+      },
+      {
+        "id": "9-3",
+        "name": "Kwati",
+        "price": "173.06"
+      },
+      {
+        "id": "9-4",
+        "name": "Chatamari",
+        "price": "262.30"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "9-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 9. The food was amazing!",
+        "rating": "4.4"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Roadhouse Café",
+    "ratings": "2.1",
+    "openingHours": "8:00 AM - 21:30 PM",
+    "location": {
+      "latitude": 27.718606628996824,
+      "longitude": 85.33240746119316,
+      "area": "Thamel"
+    },
+    "menu": [
+      {
+        "id": "10-1",
+        "name": "Gundruk",
+        "price": "302.39"
+      },
+      {
+        "id": "10-2",
+        "name": "Aloo Tama",
+        "price": "322.41"
+      },
+      {
+        "id": "10-3",
+        "name": "Dal Bhat",
+        "price": "253.32"
+      },
+      {
+        "id": "10-4",
+        "name": "Aloo Tama",
+        "price": "235.45"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "10-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 10. The food was amazing!",
+        "rating": "2.8"
+      },
+      {
+        "id": "10-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 10. The food was amazing!",
+        "rating": "2.9"
+      },
+      {
+        "id": "10-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 10. The food was amazing!",
+        "rating": "4.2"
+      },
+      {
+        "id": "10-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 10. The food was amazing!",
+        "rating": "3.3"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Roadhouse Café",
+    "ratings": "3.1",
+    "openingHours": "7:30 AM - 19:30 PM",
+    "location": {
+      "latitude": 27.70608406798411,
+      "longitude": 85.32966999253408,
+      "area": "New Baneshwor"
+    },
+    "menu": [
+      {
+        "id": "11-1",
+        "name": "Dal Bhat",
+        "price": "362.21"
+      },
+      {
+        "id": "11-2",
+        "name": "Sel Roti",
+        "price": "314.34"
+      },
+      {
+        "id": "11-3",
+        "name": "Chatamari",
+        "price": "386.56"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "11-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 11. The food was amazing!",
+        "rating": "0.6"
+      },
+      {
+        "id": "11-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 11. The food was amazing!",
+        "rating": "2.8"
+      },
+      {
+        "id": "11-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 11. The food was amazing!",
+        "rating": "4.6"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Fire and Ice Pizzeria",
+    "ratings": "3.7",
+    "openingHours": "9:30 AM - 20:00 PM",
+    "location": {
+      "latitude": 27.725205130488998,
+      "longitude": 85.32658088612509,
+      "area": "Thamel"
+    },
+    "menu": [
+      {
+        "id": "12-1",
+        "name": "Kwati",
+        "price": "137.08"
+      },
+      {
+        "id": "12-2",
+        "name": "Dal Bhat",
+        "price": "250.80"
+      },
+      {
+        "id": "12-3",
+        "name": "Momo",
+        "price": "284.26"
+      },
+      {
+        "id": "12-4",
+        "name": "Gundruk",
+        "price": "167.74"
+      },
+      {
+        "id": "12-5",
+        "name": "Chatamari",
+        "price": "280.23"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "12-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 12. The food was amazing!",
+        "rating": "3.8"
+      },
+      {
+        "id": "12-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 12. The food was amazing!",
+        "rating": "1.6"
+      },
+      {
+        "id": "12-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 12. The food was amazing!",
+        "rating": "2.5"
+      },
+      {
+        "id": "12-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 12. The food was amazing!",
+        "rating": "4.2"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Thamel House Restaurant",
+    "ratings": "0.2",
+    "openingHours": "9:00 AM - 20:00 PM",
+    "location": {
+      "latitude": 27.71765007235346,
+      "longitude": 85.33028876404072,
+      "area": "Thamel"
+    },
+    "menu": [
+      {
+        "id": "13-1",
+        "name": "Thukpa",
+        "price": "247.00"
+      },
+      {
+        "id": "13-2",
+        "name": "Gundruk",
+        "price": "206.56"
+      },
+      {
+        "id": "13-3",
+        "name": "Newari Khaja Set",
+        "price": "283.87"
+      },
+      {
+        "id": "13-4",
+        "name": "Yomari",
+        "price": "268.71"
+      },
+      {
+        "id": "13-5",
+        "name": "Gundruk",
+        "price": "152.65"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "13-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 13. The food was amazing!",
+        "rating": "0.7"
+      },
+      {
+        "id": "13-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 13. The food was amazing!",
+        "rating": "1.9"
+      },
+      {
+        "id": "13-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 13. The food was amazing!",
+        "rating": "0.2"
+      },
+      {
+        "id": "13-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 13. The food was amazing!",
+        "rating": "2.8"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Krishnarpan Restaurant",
+    "ratings": "2.1",
+    "openingHours": "7:30 AM - 22:30 PM",
+    "location": {
+      "latitude": 27.72100520675102,
+      "longitude": 85.32142792572563,
+      "area": "Lazimpat"
+    },
+    "menu": [
+      {
+        "id": "14-1",
+        "name": "Dal Bhat",
+        "price": "275.17"
+      },
+      {
+        "id": "14-2",
+        "name": "Gundruk",
+        "price": "242.00"
+      },
+      {
+        "id": "14-3",
+        "name": "Dal Bhat",
+        "price": "107.54"
+      },
+      {
+        "id": "14-4",
+        "name": "Gundruk",
+        "price": "393.05"
+      },
+      {
+        "id": "14-5",
+        "name": "Dal Bhat",
+        "price": "316.85"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "14-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 14. The food was amazing!",
+        "rating": "4.3"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Le Sherpa",
+    "ratings": "4.8",
+    "openingHours": "7:00 AM - 22:30 PM",
+    "location": {
+      "latitude": 27.716265589756116,
+      "longitude": 85.31445688249757,
+      "area": "Lazimpat"
+    },
+    "menu": [
+      {
+        "id": "15-1",
+        "name": "Yomari",
+        "price": "368.92"
+      },
+      {
+        "id": "15-2",
+        "name": "Momo",
+        "price": "259.48"
+      },
+      {
+        "id": "15-3",
+        "name": "Yomari",
+        "price": "380.98"
+      },
+      {
+        "id": "15-4",
+        "name": "Momo",
+        "price": "397.83"
+      },
+      {
+        "id": "15-5",
+        "name": "Dal Bhat",
+        "price": "367.37"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "15-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 15. The food was amazing!",
+        "rating": "5.0"
+      },
+      {
+        "id": "15-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 15. The food was amazing!",
+        "rating": "1.2"
+      },
+      {
+        "id": "15-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 15. The food was amazing!",
+        "rating": "3.2"
+      },
+      {
+        "id": "15-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 15. The food was amazing!",
+        "rating": "1.1"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Bhojan Griha",
+    "ratings": "2.2",
+    "openingHours": "8:00 AM - 20:00 PM",
+    "location": {
+      "latitude": 27.72570421536815,
+      "longitude": 85.32857801802375,
+      "area": "Thamel"
+    },
+    "menu": [
+      {
+        "id": "16-1",
+        "name": "Aloo Tama",
+        "price": "183.77"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "16-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 16. The food was amazing!",
+        "rating": "1.8"
+      },
+      {
+        "id": "16-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 16. The food was amazing!",
+        "rating": "2.8"
+      },
+      {
+        "id": "16-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 16. The food was amazing!",
+        "rating": "1.0"
+      },
+      {
+        "id": "16-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 16. The food was amazing!",
+        "rating": "3.5"
+      },
+      {
+        "id": "16-review-5",
+        "reviewer": "User 5",
+        "comment": "This is a review for Vendor 16. The food was amazing!",
+        "rating": "1.5"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "The Ship Restaurant",
+    "ratings": "2.1",
+    "openingHours": "9:00 AM - 22:30 PM",
+    "location": {
+      "latitude": 27.701448363169263,
+      "longitude": 85.3205645856477,
+      "area": "Patan Durbar Square"
+    },
+    "menu": [
+      {
+        "id": "17-1",
+        "name": "Thukpa",
+        "price": "109.81"
+      },
+      {
+        "id": "17-2",
+        "name": "Gundruk",
+        "price": "180.18"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "17-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 17. The food was amazing!",
+        "rating": "1.4"
+      },
+      {
+        "id": "17-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 17. The food was amazing!",
+        "rating": "3.5"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Krishnarpan Restaurant",
+    "ratings": "1.1",
+    "openingHours": "7:00 AM - 20:00 PM",
+    "location": {
+      "latitude": 27.676246074580348,
+      "longitude": 85.32424977490162,
+      "area": "Jawalakhel"
+    },
+    "menu": [
+      {
+        "id": "18-1",
+        "name": "Chatamari",
+        "price": "153.04"
+      },
+      {
+        "id": "18-2",
+        "name": "Sel Roti",
+        "price": "192.79"
+      },
+      {
+        "id": "18-3",
+        "name": "Kwati",
+        "price": "188.25"
+      },
+      {
+        "id": "18-4",
+        "name": "Momo",
+        "price": "349.34"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "18-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 18. The food was amazing!",
+        "rating": "1.7"
+      },
+      {
+        "id": "18-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 18. The food was amazing!",
+        "rating": "2.2"
+      },
+      {
+        "id": "18-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 18. The food was amazing!",
+        "rating": "4.2"
+      },
+      {
+        "id": "18-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 18. The food was amazing!",
+        "rating": "2.5"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "OR2K",
+    "ratings": "1.5",
+    "openingHours": "9:30 AM - 20:00 PM",
+    "location": {
+      "latitude": 27.67563816521445,
+      "longitude": 85.31964976812759,
+      "area": "Jawalakhel"
+    },
+    "menu": [
+      {
+        "id": "19-1",
+        "name": "Thukpa",
+        "price": "355.25"
+      },
+      {
+        "id": "19-2",
+        "name": "Dal Bhat",
+        "price": "260.64"
+      },
+      {
+        "id": "19-3",
+        "name": "Sel Roti",
+        "price": "268.80"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "19-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 19. The food was amazing!",
+        "rating": "0.8"
+      },
+      {
+        "id": "19-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 19. The food was amazing!",
+        "rating": "1.1"
+      },
+      {
+        "id": "19-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 19. The food was amazing!",
+        "rating": "0.4"
+      },
+      {
+        "id": "19-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 19. The food was amazing!",
+        "rating": "2.4"
+      },
+      {
+        "id": "19-review-5",
+        "reviewer": "User 5",
+        "comment": "This is a review for Vendor 19. The food was amazing!",
+        "rating": "3.9"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Krishnarpan Restaurant",
+    "ratings": "4.3",
+    "openingHours": "7:30 AM - 21:00 PM",
+    "location": {
+      "latitude": 27.722299979278354,
+      "longitude": 85.32803871685144,
+      "area": "Thamel"
+    },
+    "menu": [
+      {
+        "id": "20-1",
+        "name": "Gundruk",
+        "price": "114.74"
+      },
+      {
+        "id": "20-2",
+        "name": "Kwati",
+        "price": "134.83"
+      },
+      {
+        "id": "20-3",
+        "name": "Yomari",
+        "price": "104.45"
+      },
+      {
+        "id": "20-4",
+        "name": "Sel Roti",
+        "price": "151.21"
+      },
+      {
+        "id": "20-5",
+        "name": "Chatamari",
+        "price": "155.28"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "20-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 20. The food was amazing!",
+        "rating": "0.8"
+      },
+      {
+        "id": "20-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 20. The food was amazing!",
+        "rating": "2.6"
+      },
+      {
+        "id": "20-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 20. The food was amazing!",
+        "rating": "4.4"
+      },
+      {
+        "id": "20-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 20. The food was amazing!",
+        "rating": "2.7"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Bhojan Griha",
+    "ratings": "2.9",
+    "openingHours": "8:30 AM - 20:00 PM",
+    "location": {
+      "latitude": 27.721086268768897,
+      "longitude": 85.32071555018719,
+      "area": "Lazimpat"
+    },
+    "menu": [
+      {
+        "id": "21-1",
+        "name": "Chatamari",
+        "price": "213.99"
+      },
+      {
+        "id": "21-2",
+        "name": "Thukpa",
+        "price": "398.05"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "21-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 21. The food was amazing!",
+        "rating": "4.0"
+      },
+      {
+        "id": "21-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 21. The food was amazing!",
+        "rating": "4.9"
+      },
+      {
+        "id": "21-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 21. The food was amazing!",
+        "rating": "3.6"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Bhojan Griha",
+    "ratings": "0.5",
+    "openingHours": "9:00 AM - 21:00 PM",
+    "location": {
+      "latitude": 27.71491931872186,
+      "longitude": 85.31897490913717,
+      "area": "Lazimpat"
+    },
+    "menu": [
+      {
+        "id": "22-1",
+        "name": "Sel Roti",
+        "price": "182.46"
+      },
+      {
+        "id": "22-2",
+        "name": "Gundruk",
+        "price": "207.00"
+      },
+      {
+        "id": "22-3",
+        "name": "Gundruk",
+        "price": "129.04"
+      },
+      {
+        "id": "22-4",
+        "name": "Momo",
+        "price": "363.84"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "22-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 22. The food was amazing!",
+        "rating": "1.5"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Garden of Dreams Café",
+    "ratings": "3.7",
+    "openingHours": "9:30 AM - 20:00 PM",
+    "location": {
+      "latitude": 27.722645256454864,
+      "longitude": 85.3302322290974,
+      "area": "Thamel"
+    },
+    "menu": [
+      {
+        "id": "23-1",
+        "name": "Yomari",
+        "price": "333.72"
+      },
+      {
+        "id": "23-2",
+        "name": "Dal Bhat",
+        "price": "358.38"
+      },
+      {
+        "id": "23-3",
+        "name": "Gundruk",
+        "price": "203.48"
+      },
+      {
+        "id": "23-4",
+        "name": "Yomari",
+        "price": "183.67"
+      },
+      {
+        "id": "23-5",
+        "name": "Sel Roti",
+        "price": "109.56"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "23-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 23. The food was amazing!",
+        "rating": "4.0"
+      },
+      {
+        "id": "23-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 23. The food was amazing!",
+        "rating": "4.2"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "OR2K",
+    "ratings": "3.4",
+    "openingHours": "7:00 AM - 21:00 PM",
+    "location": {
+      "latitude": 27.723420885475534,
+      "longitude": 85.32421670247801,
+      "area": "Thamel"
+    },
+    "menu": [
+      {
+        "id": "24-1",
+        "name": "Aloo Tama",
+        "price": "137.89"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "24-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 24. The food was amazing!",
+        "rating": "1.1"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Bhojan Griha",
+    "ratings": "0.6",
+    "openingHours": "7:00 AM - 20:30 PM",
+    "location": {
+      "latitude": 27.704823670029626,
+      "longitude": 85.32445535878837,
+      "area": "New Baneshwor"
+    },
+    "menu": [
+      {
+        "id": "25-1",
+        "name": "Newari Khaja Set",
+        "price": "200.30"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "25-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 25. The food was amazing!",
+        "rating": "1.6"
+      },
+      {
+        "id": "25-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 25. The food was amazing!",
+        "rating": "1.3"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Bhojan Griha",
+    "ratings": "2.7",
+    "openingHours": "9:30 AM - 19:00 PM",
+    "location": {
+      "latitude": 27.69767389342832,
+      "longitude": 85.32771048188656,
+      "area": "Patan Durbar Square"
+    },
+    "menu": [
+      {
+        "id": "26-1",
+        "name": "Sel Roti",
+        "price": "292.50"
+      },
+      {
+        "id": "26-2",
+        "name": "Thukpa",
+        "price": "370.98"
+      },
+      {
+        "id": "26-3",
+        "name": "Newari Khaja Set",
+        "price": "296.21"
+      },
+      {
+        "id": "26-4",
+        "name": "Thukpa",
+        "price": "141.00"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "26-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 26. The food was amazing!",
+        "rating": "0.7"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Thamel House Restaurant",
+    "ratings": "0.4",
+    "openingHours": "8:30 AM - 19:00 PM",
+    "location": {
+      "latitude": 27.717627607263175,
+      "longitude": 85.3211738277767,
+      "area": "Lazimpat"
+    },
+    "menu": [
+      {
+        "id": "27-1",
+        "name": "Yomari",
+        "price": "334.18"
+      },
+      {
+        "id": "27-2",
+        "name": "Newari Khaja Set",
+        "price": "382.54"
+      },
+      {
+        "id": "27-3",
+        "name": "Thukpa",
+        "price": "368.42"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "27-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 27. The food was amazing!",
+        "rating": "4.9"
+      },
+      {
+        "id": "27-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 27. The food was amazing!",
+        "rating": "0.6"
+      },
+      {
+        "id": "27-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 27. The food was amazing!",
+        "rating": "1.0"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Garden of Dreams Café",
+    "ratings": "0.8",
+    "openingHours": "8:00 AM - 19:00 PM",
+    "location": {
+      "latitude": 27.717539790553346,
+      "longitude": 85.31393701046862,
+      "area": "Lazimpat"
+    },
+    "menu": [
+      {
+        "id": "28-1",
+        "name": "Thukpa",
+        "price": "391.26"
+      },
+      {
+        "id": "28-2",
+        "name": "Kwati",
+        "price": "303.03"
+      },
+      {
+        "id": "28-3",
+        "name": "Momo",
+        "price": "215.70"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "28-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 28. The food was amazing!",
+        "rating": "1.7"
+      },
+      {
+        "id": "28-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 28. The food was amazing!",
+        "rating": "3.9"
+      },
+      {
+        "id": "28-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 28. The food was amazing!",
+        "rating": "2.7"
+      },
+      {
+        "id": "28-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 28. The food was amazing!",
+        "rating": "1.3"
+      },
+      {
+        "id": "28-review-5",
+        "reviewer": "User 5",
+        "comment": "This is a review for Vendor 28. The food was amazing!",
+        "rating": "4.9"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "The Ship Restaurant",
+    "ratings": "2.2",
+    "openingHours": "7:00 AM - 19:30 PM",
+    "location": {
+      "latitude": 27.72635902007123,
+      "longitude": 85.32717825649792,
+      "area": "Thamel"
+    },
+    "menu": [
+      {
+        "id": "29-1",
+        "name": "Gundruk",
+        "price": "239.87"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "29-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 29. The food was amazing!",
+        "rating": "0.9"
+      },
+      {
+        "id": "29-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 29. The food was amazing!",
+        "rating": "2.9"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Bhojan Griha",
+    "ratings": "1.4",
+    "openingHours": "9:00 AM - 22:30 PM",
+    "location": {
+      "latitude": 27.69905980693751,
+      "longitude": 85.32515700242779,
+      "area": "Patan Durbar Square"
+    },
+    "menu": [
+      {
+        "id": "30-1",
+        "name": "Newari Khaja Set",
+        "price": "327.23"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "30-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 30. The food was amazing!",
+        "rating": "1.1"
+      },
+      {
+        "id": "30-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 30. The food was amazing!",
+        "rating": "0.8"
+      },
+      {
+        "id": "30-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 30. The food was amazing!",
+        "rating": "2.8"
+      },
+      {
+        "id": "30-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 30. The food was amazing!",
+        "rating": "0.1"
+      },
+      {
+        "id": "30-review-5",
+        "reviewer": "User 5",
+        "comment": "This is a review for Vendor 30. The food was amazing!",
+        "rating": "0.5"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Roadhouse Café",
+    "ratings": "1.0",
+    "openingHours": "9:00 AM - 19:00 PM",
+    "location": {
+      "latitude": 27.721718753159966,
+      "longitude": 85.32416994746409,
+      "area": "Thamel"
+    },
+    "menu": [
+      {
+        "id": "31-1",
+        "name": "Thukpa",
+        "price": "116.56"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "31-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 31. The food was amazing!",
+        "rating": "2.0"
+      },
+      {
+        "id": "31-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 31. The food was amazing!",
+        "rating": "4.5"
+      },
+      {
+        "id": "31-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 31. The food was amazing!",
+        "rating": "4.4"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Bhojan Griha",
+    "ratings": "3.3",
+    "openingHours": "9:00 AM - 22:30 PM",
+    "location": {
+      "latitude": 27.705763190337095,
+      "longitude": 85.32221933623988,
+      "area": "New Baneshwor"
+    },
+    "menu": [
+      {
+        "id": "32-1",
+        "name": "Momo",
+        "price": "197.50"
+      },
+      {
+        "id": "32-2",
+        "name": "Dal Bhat",
+        "price": "338.65"
+      },
+      {
+        "id": "32-3",
+        "name": "Dal Bhat",
+        "price": "120.45"
+      },
+      {
+        "id": "32-4",
+        "name": "Momo",
+        "price": "252.02"
+      },
+      {
+        "id": "32-5",
+        "name": "Yomari",
+        "price": "159.13"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "32-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 32. The food was amazing!",
+        "rating": "1.1"
+      },
+      {
+        "id": "32-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 32. The food was amazing!",
+        "rating": "4.6"
+      },
+      {
+        "id": "32-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 32. The food was amazing!",
+        "rating": "0.6"
+      },
+      {
+        "id": "32-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 32. The food was amazing!",
+        "rating": "0.7"
+      },
+      {
+        "id": "32-review-5",
+        "reviewer": "User 5",
+        "comment": "This is a review for Vendor 32. The food was amazing!",
+        "rating": "4.1"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "The Ship Restaurant",
+    "ratings": "2.2",
+    "openingHours": "9:30 AM - 22:30 PM",
+    "location": {
+      "latitude": 27.718996015658856,
+      "longitude": 85.3286323015351,
+      "area": "Thamel"
+    },
+    "menu": [
+      {
+        "id": "33-1",
+        "name": "Dal Bhat",
+        "price": "303.45"
+      },
+      {
+        "id": "33-2",
+        "name": "Chatamari",
+        "price": "310.29"
+      },
+      {
+        "id": "33-3",
+        "name": "Yomari",
+        "price": "249.32"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "33-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 33. The food was amazing!",
+        "rating": "1.9"
+      },
+      {
+        "id": "33-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 33. The food was amazing!",
+        "rating": "3.4"
+      },
+      {
+        "id": "33-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 33. The food was amazing!",
+        "rating": "0.1"
+      },
+      {
+        "id": "33-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 33. The food was amazing!",
+        "rating": "4.6"
+      },
+      {
+        "id": "33-review-5",
+        "reviewer": "User 5",
+        "comment": "This is a review for Vendor 33. The food was amazing!",
+        "rating": "4.5"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Fire and Ice Pizzeria",
+    "ratings": "5.0",
+    "openingHours": "7:30 AM - 22:00 PM",
+    "location": {
+      "latitude": 27.698882013936938,
+      "longitude": 85.32781304799079,
+      "area": "Patan Durbar Square"
+    },
+    "menu": [
+      {
+        "id": "34-1",
+        "name": "Sel Roti",
+        "price": "197.65"
+      },
+      {
+        "id": "34-2",
+        "name": "Aloo Tama",
+        "price": "344.30"
+      },
+      {
+        "id": "34-3",
+        "name": "Thukpa",
+        "price": "151.71"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "34-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 34. The food was amazing!",
+        "rating": "4.1"
+      },
+      {
+        "id": "34-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 34. The food was amazing!",
+        "rating": "1.1"
+      },
+      {
+        "id": "34-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 34. The food was amazing!",
+        "rating": "1.7"
+      },
+      {
+        "id": "34-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 34. The food was amazing!",
+        "rating": "3.9"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Le Sherpa",
+    "ratings": "0.7",
+    "openingHours": "7:30 AM - 19:30 PM",
+    "location": {
+      "latitude": 27.700121539026927,
+      "longitude": 85.32559851572539,
+      "area": "Patan Durbar Square"
+    },
+    "menu": [
+      {
+        "id": "35-1",
+        "name": "Aloo Tama",
+        "price": "209.27"
+      },
+      {
+        "id": "35-2",
+        "name": "Thukpa",
+        "price": "153.66"
+      },
+      {
+        "id": "35-3",
+        "name": "Sel Roti",
+        "price": "300.90"
+      },
+      {
+        "id": "35-4",
+        "name": "Kwati",
+        "price": "141.72"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "35-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 35. The food was amazing!",
+        "rating": "0.1"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "The Ship Restaurant",
+    "ratings": "0.5",
+    "openingHours": "7:30 AM - 20:00 PM",
+    "location": {
+      "latitude": 27.710485873822705,
+      "longitude": 85.32977231472897,
+      "area": "New Baneshwor"
+    },
+    "menu": [
+      {
+        "id": "36-1",
+        "name": "Momo",
+        "price": "259.38"
+      },
+      {
+        "id": "36-2",
+        "name": "Aloo Tama",
+        "price": "218.44"
+      },
+      {
+        "id": "36-3",
+        "name": "Thukpa",
+        "price": "109.73"
+      },
+      {
+        "id": "36-4",
+        "name": "Aloo Tama",
+        "price": "221.35"
+      },
+      {
+        "id": "36-5",
+        "name": "Gundruk",
+        "price": "100.03"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "36-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 36. The food was amazing!",
+        "rating": "4.1"
+      },
+      {
+        "id": "36-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 36. The food was amazing!",
+        "rating": "1.5"
+      },
+      {
+        "id": "36-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 36. The food was amazing!",
+        "rating": "3.9"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Thamel House Restaurant",
+    "ratings": "2.6",
+    "openingHours": "9:00 AM - 20:00 PM",
+    "location": {
+      "latitude": 27.679190200798445,
+      "longitude": 85.32725810982778,
+      "area": "Jawalakhel"
+    },
+    "menu": [
+      {
+        "id": "37-1",
+        "name": "Aloo Tama",
+        "price": "311.01"
+      },
+      {
+        "id": "37-2",
+        "name": "Thukpa",
+        "price": "371.25"
+      },
+      {
+        "id": "37-3",
+        "name": "Aloo Tama",
+        "price": "152.87"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "37-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 37. The food was amazing!",
+        "rating": "2.4"
+      },
+      {
+        "id": "37-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 37. The food was amazing!",
+        "rating": "0.0"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Kaiser Cafe",
+    "ratings": "4.5",
+    "openingHours": "9:30 AM - 20:30 PM",
+    "location": {
+      "latitude": 27.71919863954994,
+      "longitude": 85.33057734332655,
+      "area": "Thamel"
+    },
+    "menu": [
+      {
+        "id": "38-1",
+        "name": "Chatamari",
+        "price": "266.64"
+      },
+      {
+        "id": "38-2",
+        "name": "Thukpa",
+        "price": "127.53"
+      },
+      {
+        "id": "38-3",
+        "name": "Thukpa",
+        "price": "335.99"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "38-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 38. The food was amazing!",
+        "rating": "4.8"
+      },
+      {
+        "id": "38-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 38. The food was amazing!",
+        "rating": "0.6"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "OR2K",
+    "ratings": "4.9",
+    "openingHours": "9:00 AM - 21:00 PM",
+    "location": {
+      "latitude": 27.69777257534675,
+      "longitude": 85.31923217697177,
+      "area": "Patan Durbar Square"
+    },
+    "menu": [
+      {
+        "id": "39-1",
+        "name": "Sel Roti",
+        "price": "103.74"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "39-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 39. The food was amazing!",
+        "rating": "1.1"
+      },
+      {
+        "id": "39-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 39. The food was amazing!",
+        "rating": "4.5"
+      },
+      {
+        "id": "39-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 39. The food was amazing!",
+        "rating": "4.7"
+      },
+      {
+        "id": "39-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 39. The food was amazing!",
+        "rating": "4.0"
+      },
+      {
+        "id": "39-review-5",
+        "reviewer": "User 5",
+        "comment": "This is a review for Vendor 39. The food was amazing!",
+        "rating": "1.4"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Bhojan Griha",
+    "ratings": "1.7",
+    "openingHours": "9:30 AM - 21:30 PM",
+    "location": {
+      "latitude": 27.681327520315428,
+      "longitude": 85.3230854693955,
+      "area": "Jawalakhel"
+    },
+    "menu": [
+      {
+        "id": "40-1",
+        "name": "Thukpa",
+        "price": "157.77"
+      },
+      {
+        "id": "40-2",
+        "name": "Chatamari",
+        "price": "121.99"
+      },
+      {
+        "id": "40-3",
+        "name": "Kwati",
+        "price": "349.79"
+      },
+      {
+        "id": "40-4",
+        "name": "Dal Bhat",
+        "price": "374.05"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "40-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 40. The food was amazing!",
+        "rating": "2.3"
+      },
+      {
+        "id": "40-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 40. The food was amazing!",
+        "rating": "4.4"
+      },
+      {
+        "id": "40-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 40. The food was amazing!",
+        "rating": "3.0"
+      },
+      {
+        "id": "40-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 40. The food was amazing!",
+        "rating": "0.6"
+      },
+      {
+        "id": "40-review-5",
+        "reviewer": "User 5",
+        "comment": "This is a review for Vendor 40. The food was amazing!",
+        "rating": "3.1"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Garden of Dreams Café",
+    "ratings": "3.0",
+    "openingHours": "8:00 AM - 22:30 PM",
+    "location": {
+      "latitude": 27.704320583741204,
+      "longitude": 85.32544258648167,
+      "area": "New Baneshwor"
+    },
+    "menu": [
+      {
+        "id": "41-1",
+        "name": "Gundruk",
+        "price": "172.57"
+      },
+      {
+        "id": "41-2",
+        "name": "Gundruk",
+        "price": "145.98"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "41-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 41. The food was amazing!",
+        "rating": "2.0"
+      },
+      {
+        "id": "41-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 41. The food was amazing!",
+        "rating": "2.5"
+      },
+      {
+        "id": "41-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 41. The food was amazing!",
+        "rating": "1.4"
+      },
+      {
+        "id": "41-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 41. The food was amazing!",
+        "rating": "1.5"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "OR2K",
+    "ratings": "2.8",
+    "openingHours": "7:30 AM - 22:30 PM",
+    "location": {
+      "latitude": 27.679000084318194,
+      "longitude": 85.31763137084981,
+      "area": "Jawalakhel"
+    },
+    "menu": [
+      {
+        "id": "42-1",
+        "name": "Thukpa",
+        "price": "371.36"
+      },
+      {
+        "id": "42-2",
+        "name": "Momo",
+        "price": "385.15"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "42-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 42. The food was amazing!",
+        "rating": "2.6"
+      },
+      {
+        "id": "42-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 42. The food was amazing!",
+        "rating": "3.3"
+      },
+      {
+        "id": "42-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 42. The food was amazing!",
+        "rating": "2.8"
+      },
+      {
+        "id": "42-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 42. The food was amazing!",
+        "rating": "4.9"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Kaiser Cafe",
+    "ratings": "4.1",
+    "openingHours": "7:00 AM - 21:30 PM",
+    "location": {
+      "latitude": 27.70597028818654,
+      "longitude": 85.32084771758298,
+      "area": "New Baneshwor"
+    },
+    "menu": [
+      {
+        "id": "43-1",
+        "name": "Newari Khaja Set",
+        "price": "219.98"
+      },
+      {
+        "id": "43-2",
+        "name": "Kwati",
+        "price": "234.02"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "43-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 43. The food was amazing!",
+        "rating": "0.9"
+      },
+      {
+        "id": "43-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 43. The food was amazing!",
+        "rating": "1.5"
+      },
+      {
+        "id": "43-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 43. The food was amazing!",
+        "rating": "0.1"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Kaiser Cafe",
+    "ratings": "4.3",
+    "openingHours": "8:00 AM - 21:00 PM",
+    "location": {
+      "latitude": 27.70415293445647,
+      "longitude": 85.32207197238279,
+      "area": "New Baneshwor"
+    },
+    "menu": [
+      {
+        "id": "44-1",
+        "name": "Newari Khaja Set",
+        "price": "167.74"
+      },
+      {
+        "id": "44-2",
+        "name": "Dal Bhat",
+        "price": "228.11"
+      },
+      {
+        "id": "44-3",
+        "name": "Thukpa",
+        "price": "125.64"
+      },
+      {
+        "id": "44-4",
+        "name": "Newari Khaja Set",
+        "price": "295.52"
+      },
+      {
+        "id": "44-5",
+        "name": "Thukpa",
+        "price": "273.57"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "44-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 44. The food was amazing!",
+        "rating": "0.9"
+      },
+      {
+        "id": "44-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 44. The food was amazing!",
+        "rating": "3.0"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "The Ship Restaurant",
+    "ratings": "0.9",
+    "openingHours": "7:30 AM - 21:00 PM",
+    "location": {
+      "latitude": 27.67611772484487,
+      "longitude": 85.32139666583073,
+      "area": "Jawalakhel"
+    },
+    "menu": [
+      {
+        "id": "45-1",
+        "name": "Chatamari",
+        "price": "153.31"
+      },
+      {
+        "id": "45-2",
+        "name": "Newari Khaja Set",
+        "price": "235.67"
+      },
+      {
+        "id": "45-3",
+        "name": "Momo",
+        "price": "173.08"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "45-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 45. The food was amazing!",
+        "rating": "1.6"
+      },
+      {
+        "id": "45-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 45. The food was amazing!",
+        "rating": "1.8"
+      },
+      {
+        "id": "45-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 45. The food was amazing!",
+        "rating": "1.4"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Le Sherpa",
+    "ratings": "1.4",
+    "openingHours": "7:00 AM - 20:30 PM",
+    "location": {
+      "latitude": 27.722358209865572,
+      "longitude": 85.33185885219545,
+      "area": "Thamel"
+    },
+    "menu": [
+      {
+        "id": "46-1",
+        "name": "Thukpa",
+        "price": "259.34"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "46-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 46. The food was amazing!",
+        "rating": "0.9"
+      },
+      {
+        "id": "46-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 46. The food was amazing!",
+        "rating": "4.0"
+      },
+      {
+        "id": "46-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 46. The food was amazing!",
+        "rating": "4.7"
+      },
+      {
+        "id": "46-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 46. The food was amazing!",
+        "rating": "2.2"
+      },
+      {
+        "id": "46-review-5",
+        "reviewer": "User 5",
+        "comment": "This is a review for Vendor 46. The food was amazing!",
+        "rating": "3.8"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Fire and Ice Pizzeria",
+    "ratings": "1.5",
+    "openingHours": "8:30 AM - 21:00 PM",
+    "location": {
+      "latitude": 27.716387297529582,
+      "longitude": 85.31903920416593,
+      "area": "Lazimpat"
+    },
+    "menu": [
+      {
+        "id": "47-1",
+        "name": "Kwati",
+        "price": "135.31"
+      },
+      {
+        "id": "47-2",
+        "name": "Yomari",
+        "price": "312.84"
+      },
+      {
+        "id": "47-3",
+        "name": "Kwati",
+        "price": "388.66"
+      },
+      {
+        "id": "47-4",
+        "name": "Dal Bhat",
+        "price": "332.51"
+      },
+      {
+        "id": "47-5",
+        "name": "Aloo Tama",
+        "price": "303.35"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "47-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 47. The food was amazing!",
+        "rating": "3.0"
+      },
+      {
+        "id": "47-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 47. The food was amazing!",
+        "rating": "0.5"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Kaiser Cafe",
+    "ratings": "0.4",
+    "openingHours": "9:30 AM - 20:00 PM",
+    "location": {
+      "latitude": 27.718449782492872,
+      "longitude": 85.3258199838913,
+      "area": "Thamel"
+    },
+    "menu": [
+      {
+        "id": "48-1",
+        "name": "Sel Roti",
+        "price": "394.53"
+      },
+      {
+        "id": "48-2",
+        "name": "Yomari",
+        "price": "320.06"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "48-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 48. The food was amazing!",
+        "rating": "3.8"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Roadhouse Café",
+    "ratings": "3.5",
+    "openingHours": "8:30 AM - 21:30 PM",
+    "location": {
+      "latitude": 27.717371782851743,
+      "longitude": 85.3169440819369,
+      "area": "Lazimpat"
+    },
+    "menu": [
+      {
+        "id": "49-1",
+        "name": "Gundruk",
+        "price": "321.33"
+      },
+      {
+        "id": "49-2",
+        "name": "Chatamari",
+        "price": "291.13"
+      },
+      {
+        "id": "49-3",
+        "name": "Thukpa",
+        "price": "382.39"
+      },
+      {
+        "id": "49-4",
+        "name": "Sel Roti",
+        "price": "206.74"
+      },
+      {
+        "id": "49-5",
+        "name": "Sel Roti",
+        "price": "182.08"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "49-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 49. The food was amazing!",
+        "rating": "0.1"
+      },
+      {
+        "id": "49-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 49. The food was amazing!",
+        "rating": "2.4"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Fire and Ice Pizzeria",
+    "ratings": "4.0",
+    "openingHours": "7:00 AM - 20:30 PM",
+    "location": {
+      "latitude": 27.67540923078711,
+      "longitude": 85.3225448516277,
+      "area": "Jawalakhel"
+    },
+    "menu": [
+      {
+        "id": "50-1",
+        "name": "Sel Roti",
+        "price": "354.67"
+      },
+      {
+        "id": "50-2",
+        "name": "Momo",
+        "price": "334.65"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "50-review-1",
+        "reviewer": "User 1",
+        "comment": "This is a review for Vendor 50. The food was amazing!",
+        "rating": "5.0"
+      },
+      {
+        "id": "50-review-2",
+        "reviewer": "User 2",
+        "comment": "This is a review for Vendor 50. The food was amazing!",
+        "rating": "4.7"
+      },
+      {
+        "id": "50-review-3",
+        "reviewer": "User 3",
+        "comment": "This is a review for Vendor 50. The food was amazing!",
+        "rating": "0.0"
+      },
+      {
+        "id": "50-review-4",
+        "reviewer": "User 4",
+        "comment": "This is a review for Vendor 50. The food was amazing!",
+        "rating": "4.3"
+      },
+      {
+        "id": "50-review-5",
+        "reviewer": "User 5",
+        "comment": "This is a review for Vendor 50. The food was amazing!",
+        "rating": "0.1"
+      }
+    ]
+  }
+]
