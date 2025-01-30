@@ -6,19 +6,15 @@ import {
   DefaultTheme as NavigationDefaultTheme,
   NavigationContainer,
 } from '@react-navigation/native';
-import {SheetProvider} from 'react-native-actions-sheet';
 
-// import AuthHandler from '@hooks/AuthHandler';
 import {darkTheme, lightTheme} from '@themes';
-
-import {useState} from 'react';
 import MainStack from './MainStack';
 import AuthStack from './AuthStack';
 import {useAppSelector} from '@hooks/rtkHooks';
 
 export default function RootNavController() {
   const {isLoggedIn} = useAppSelector(state => state.settings);
-  console.log('isLoggedIn', isLoggedIn);
+
   const isDarkMode = false;
   const theme: ThemeProp = {
     ...DefaultTheme,

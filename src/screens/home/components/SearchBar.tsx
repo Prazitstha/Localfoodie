@@ -1,5 +1,11 @@
 import React, {useCallback, useState} from 'react';
-import {FlatList, StyleSheet, View} from 'react-native';
+import {
+  Alert,
+  FlatList,
+  StyleSheet,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import {
   MD3Theme,
   Portal,
@@ -12,9 +18,12 @@ import {debounce} from 'lodash';
 import {ChevronRight, Search} from 'lucide-react-native';
 
 import {VectorIcon} from '@components';
-import {vendorData} from '@constants/data';
+import {useAppDispatch, useAppSelector} from '@hooks/rtkHooks';
+import {signOut} from '@redux/features/appSlice';
 
-export function SearchBar() {
+export function SearchBar({handleModalOpen}: any) {
+  const dispatch = useAppDispatch();
+  const {vendorData} = useAppSelector(state => state.settings);
   const [searchQuery, setSearchQuery] = useState('');
   const theme = useTheme();
   const styles = themedStyles(theme);
@@ -28,10 +37,9 @@ export function SearchBar() {
   const renderItem = ({item}: {item: any}) => (
     <TouchableRipple
       onPress={() => {
-        handleNavigate(
-          item?.matched === true ? item?.searchedText : item?.name,
-        ),
-          setIsSearchActive(false);
+        setIsSearchActive(false);
+        console.log('iTEM!!!', item);
+        setTimeout(() => handleModalOpen(item), 300);
       }}>
       <View style={styles.itemContainer}>
         <View style={styles.leftIcon}>
@@ -65,9 +73,11 @@ export function SearchBar() {
     handleSearch(text);
   };
   const [filteredData, setFilteredData] = useState([]);
-  console.log('FIlteredData', filteredData);
   const handleSearch = useCallback(
     debounce(async (text: string) => {
+      if (!text) {
+        setFilteredData([]);
+      }
       handleOfflineSearch(text);
     }, 500),
     [vendorData],
@@ -80,13 +90,13 @@ export function SearchBar() {
       data = data.filter(
         item =>
           item.name.toLowerCase().includes(text.toLowerCase()) ||
-          item.type.toLowerCase().includes(text.toLowerCase()) ||
-          item.cuisine.toLowerCase().includes(text.toLowerCase()),
+          item.location?.area.toLowerCase().includes(text.toLowerCase()),
       );
     }
 
     setFilteredData(data);
   };
+
   return (
     <View
       style={{
@@ -140,6 +150,7 @@ export function SearchBar() {
               }}
               autoFocus
             />
+
             <FlatList
               data={filteredData}
               renderItem={renderItem}
@@ -160,6 +171,12 @@ const themedStyles = (theme: MD3Theme) =>
       flex: 1,
       backgroundColor: '#F8F9FA',
       overflow: 'hidden',
+    },
+    logoutButton: {
+      // position: 'absolute',
+      // zIndex: 1,
+      // right: 24,
+      // bott: 16,
     },
     header: {
       padding: 16,

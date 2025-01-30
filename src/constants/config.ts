@@ -5,9 +5,5 @@ export const AppConfigType = {
   isProd: Config.APP_CONFIG === 'production',
 };
 
-export const BASE_URL = Config.BASE_URL ?? '';
-
-export const MAX_FILE_SIZE = 5e6; // 5 megabytes
-
-// DEFAULT COMPONENT CONFIGS
-export const DEFAULT_ACTIVE_OPACITY = 0.6;
+export const BASE_URL1 = Config.BASE_URL1 ?? '';
+export const BASE_URL2 = Config.BASE_URL2 ?? '';

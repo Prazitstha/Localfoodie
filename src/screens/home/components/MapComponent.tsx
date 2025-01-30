@@ -5,7 +5,8 @@ import {StyleSheet} from 'react-native';
 
 import {getCurrentLocation} from '@helpers';
 
-export const MapComponent = ({children}: any) => {
+export const MapComponent = ({children, coordinate}: any) => {
+  console.log('Coordesss', coordinate);
   const [location, setLocation] = useState();
 
   useEffect(() => {
@@ -27,8 +28,8 @@ export const MapComponent = ({children}: any) => {
     <MapView
       style={styles.map}
       region={{
-        longitude: location?.longitude,
-        latitude: location?.latitude,
+        longitude: coordinate?.longitude ?? location?.longitude,
+        latitude: coordinate?.latitude ?? location?.latitude,
         latitudeDelta: 0.01,
         longitudeDelta: 0.01,
       }}

@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {HomeScreen} from '@screens/home';
-import TabNavigator from './TabNavigator';
 
 type MainStackParams = {
   Home: undefined;
@@ -16,13 +15,6 @@ export default function MainStack() {
       screenOptions={{
         headerShown: false,
       }}>
-      {/* <Stack.Screen
-        options={{
-          headerShown: false,
-        }}
-        name={'Maintabs'}
-        component={TabNavigator}
-      /> */}
       <Stack.Screen name="Home" component={HomeScreen} />
     </Stack.Navigator>
   );

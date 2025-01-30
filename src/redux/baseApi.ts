@@ -6,20 +6,13 @@ import {
   fetchBaseQuery,
 } from '@reduxjs/toolkit/query/react';
 
-import {BASE_URL} from '@constants/config';
+import {BASE_URL1, BASE_URL2} from '@constants/config';
 
 // import {signOut} from './features/auth';
 import {RootState} from './store';
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: `${BASE_URL}/api/`,
-  prepareHeaders: (headers, {getState}) => {
-    const token = (getState() as RootState).auth.token;
-
-    if (token) {
-      headers.set('Authorization', `Bearer ${token}`);
-    }
-  },
+  baseUrl: `${BASE_URL2}`,
 });
 
 const baseQueryInterceptor: BaseQueryFn<

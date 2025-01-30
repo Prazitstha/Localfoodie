@@ -28,7 +28,7 @@ export default function OverviewSection({businessData}: any) {
   const renderItem = ({item, index}: {item: any; index: number}) => (
     <View key={index} style={styles.serviceItem}>
       <Text style={styles.serviceName}>{item.name}</Text>
-      <Text style={styles.description}>{item.description}</Text>
+      <Text style={styles.description}>{item.name}</Text>
       <Text style={styles.charges}>
         Price: Nrs. {item.price.toLocaleString()}
       </Text>
@@ -45,21 +45,25 @@ export default function OverviewSection({businessData}: any) {
         </Text>
         <View style={styles.header}>
           <View style={styles.ratingContainer}>
-            <RatingStars rating={Math.floor(businessData?.rating ?? '4')} />
+            <RatingStars rating={Math.floor(businessData?.ratings ?? '4')} />
           </View>
           <Text style={styles.reviewCount}>
-            {businessData?.reviews} Reviews
+            {businessData?.reviews?.length} Reviews
           </Text>
         </View>
 
         <View style={styles.infoRow}>
           <Icon source="store" size={20} color={theme.colors.primary} />
-          <Text variant="bodyMedium">{businessData?.type ?? 'N/A'}</Text>
+          <Text variant="bodyMedium">
+            {businessData?.location?.area ?? 'N/A'}
+          </Text>
         </View>
 
         <View style={styles.infoRow}>
           <Icon source="chef-hat" size={20} color={theme.colors.primary} />
-          <Text variant="bodyMedium">{businessData?.cuisine ?? 'N/A'}</Text>
+          <Text variant="bodyMedium">
+            {businessData?.openingHours ?? 'N/A'}
+          </Text>
         </View>
 
         <View
