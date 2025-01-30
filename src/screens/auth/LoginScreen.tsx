@@ -8,8 +8,6 @@ import {
 } from 'react-native';
 import {COLORS, SIZES} from '../../constants/theme';
 import React, {useState} from 'react';
-import {useNavigation} from '@react-navigation/native';
-import {useDispatch} from 'react-redux';
 import {TextField} from '../../components/TextField';
 import {Button} from '../../components/Button';
 import {useAppDispatch} from '@hooks/rtkHooks';
@@ -21,16 +19,9 @@ const LoginPage = () => {
   const [loading, setLoading] = useState(false);
   const dispatch = useAppDispatch();
 
-  const body = {
-    email,
-    password,
-    fcmToken: '123456',
-  };
-
   const handleSubmit = async () => {
     try {
       dispatch(setIsLoggedIn(true));
-      // await login(body);
       setPassword('');
       setEmail('');
     } catch (error) {

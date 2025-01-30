@@ -1,11 +1,5 @@
 import React, {useCallback, useState} from 'react';
-import {
-  Alert,
-  FlatList,
-  StyleSheet,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+import {FlatList, StyleSheet, View} from 'react-native';
 import {
   MD3Theme,
   Portal,
@@ -19,26 +13,18 @@ import {ChevronRight, Search} from 'lucide-react-native';
 
 import {VectorIcon} from '@components';
 import {useAppDispatch, useAppSelector} from '@hooks/rtkHooks';
-import {signOut} from '@redux/features/appSlice';
 
 export function SearchBar({handleModalOpen}: any) {
-  const dispatch = useAppDispatch();
   const {vendorData} = useAppSelector(state => state.settings);
   const [searchQuery, setSearchQuery] = useState('');
   const theme = useTheme();
   const styles = themedStyles(theme);
   const [isSearchActive, setIsSearchActive] = useState(false);
 
-  const handleNavigate = (query: string) => {
-    if (query.trim()) {
-    }
-  };
-
   const renderItem = ({item}: {item: any}) => (
     <TouchableRipple
       onPress={() => {
         setIsSearchActive(false);
-        console.log('iTEM!!!', item);
         setTimeout(() => handleModalOpen(item), 300);
       }}>
       <View style={styles.itemContainer}>
@@ -171,12 +157,6 @@ const themedStyles = (theme: MD3Theme) =>
       flex: 1,
       backgroundColor: '#F8F9FA',
       overflow: 'hidden',
-    },
-    logoutButton: {
-      // position: 'absolute',
-      // zIndex: 1,
-      // right: 24,
-      // bott: 16,
     },
     header: {
       padding: 16,

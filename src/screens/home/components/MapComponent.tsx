@@ -1,29 +1,7 @@
-import {useEffect, useState} from 'react';
 import MapView, {PROVIDER_GOOGLE} from 'react-native-maps';
-import {useSelector} from 'react-redux';
 import {StyleSheet} from 'react-native';
 
-import {getCurrentLocation} from '@helpers';
-
-export const MapComponent = ({children, coordinate}: any) => {
-  console.log('Coordesss', coordinate);
-  const [location, setLocation] = useState();
-
-  useEffect(() => {
-    const fetchLocation = async () => {
-      try {
-        const {coords} = await getCurrentLocation(false);
-        console.log('Coords', coords);
-        if (!!coords) {
-          setLocation(coords);
-        }
-      } catch (error) {}
-    };
-    fetchLocation();
-  }, []);
-  if (!location) {
-    return;
-  }
+export const MapComponent = ({children, coordinate, location}: any) => {
   return (
     <MapView
       style={styles.map}
@@ -36,7 +14,7 @@ export const MapComponent = ({children, coordinate}: any) => {
       maxZoomLevel={30}
       poiClickEnabled={false}
       provider={PROVIDER_GOOGLE}
-      // showsUserLocation
+      showsUserLocation
       zoomControlEnabled
       showsIndoors={false}
       showsBuildings={false}

@@ -1,7 +1,6 @@
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 import {
   Alert,
-  Dimensions,
   StatusBar,
   StyleSheet,
   TouchableOpacity,
@@ -11,12 +10,13 @@ import {MD3Theme, Text} from 'react-native-paper';
 
 import {PrimarySpinner, VectorIcon} from '@components';
 import {useThemedStyles} from '@hooks/useThemedStyles';
-import {DetailBottomSheet, MapComponent, SearchBar} from './components';
 import {Marker} from 'react-native-maps';
 import BottomSheet from '@gorhom/bottom-sheet';
 import {useLazyGetVendorDataQuery} from '@redux/features/appService';
 import {useAppDispatch, useAppSelector} from '@hooks/rtkHooks';
 import {setVendorData, signOut} from '@redux/features/appSlice';
+import {getCurrentLocation} from '@helpers';
+import {DetailBottomSheet, MapComponent, SearchBar} from './components';
 
 export default function HomeScreen() {
   const themedStyles = useThemedStyles(styles);
@@ -25,9 +25,19 @@ export default function HomeScreen() {
   const bottomSheetRef = useRef<BottomSheet>(null);
   const [selectedBusiness, setSelectedBusiness] = useState<{} | null>(null);
   const {vendorData} = useAppSelector(state => state.settings);
+  const [location, setLocation] = useState();
 
-  console.log('selectedBusiness', selectedBusiness);
-
+  useEffect(() => {
+    const fetchLocation = async () => {
+      try {
+        const {coords} = await getCurrentLocation(false);
+        if (!!coords) {
+          setLocation(coords);
+        }
+      } catch (error) {}
+    };
+    fetchLocation();
+  }, []);
   const handleOpenBottomSheet = () => {
     if (bottomSheetRef.current) {
       bottomSheetRef.current.expand();
@@ -37,7 +47,6 @@ export default function HomeScreen() {
   const fetch = useCallback(async () => {
     try {
       const response = await getVendorData().unwrap();
-      console.log('Response!!', response);
       if (response?.length > 0) {
         dispatch(setVendorData(response));
       }
@@ -68,13 +77,13 @@ export default function HomeScreen() {
     );
   };
 
-  if (isLoading) return <PrimarySpinner />;
+  if (isLoading || !location) return <PrimarySpinner />;
 
   return (
     <View style={themedStyles.container}>
       <StatusBar translucent backgroundColor={'transparent'} />
       <SearchBar handleModalOpen={handleModalOpen} />
-      <MapComponent coordinate={selectedBusiness?.location}>
+      <MapComponent coordinate={selectedBusiness?.location} location={location}>
         {vendorData &&
           vendorData.map(vendor => (
             <Marker
